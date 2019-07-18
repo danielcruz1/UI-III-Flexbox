@@ -88,7 +88,7 @@ body {
 }
 
 .logo {
-	margin: -10px 0px 0px 0px;
+	margin: -10px -50px 0px 0px;
 }
 
 /****************************INDEX PAGE ******************/
@@ -104,11 +104,11 @@ header h1 {
 
 .heading {
 	display: flex;
+	border-bottom: 1px solid black;
 }
 
 .top-section {
 	padding-top: 5%;
-
 }
 
 .button-container {
@@ -171,6 +171,7 @@ header h1 {
 	font-size: 17px;
 	padding-bottom: 25px;
 	padding-top: 25px;
+	border-bottom: 1px solid black;
 	
   }
 
@@ -199,121 +200,203 @@ header h1 {
 
   /********************************** SERVICES PAGE **********************************/
 
+  /*Service info section */
+
 .services-header-img {
 	width: 100%;
 }
 
-
-.services {
+.services-p2{
 	padding-top: 3%;
-	padding-bottom: 3%;
-	}
+	padding-bottom: 2.5%;
+}
+
+.services-p2 p {
+	font-size: 18px;
+}
 	
-	.services h2 {
-		font-size: 20px;
-	}
+.services-p2 h2 {
+	font-size: 25px;
+}
 	
-	.six-box-nav{
-		/*background: yellow*/
-		display: flex;
+.six-box-nav{
+	padding-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;	
+	border-bottom: 1px solid black;
+}
+	
+.digital-design {
+	height: 250px;
+    width: 420px;
+    border: solid black 1px;
+    background-color: #9e9e9e;
+    margin: 0px 0px 42px 0px;
+    padding: 20px 17px 17px 20px;
+}
+
+.digital-design p {
+	padding-bottom: 20px;
+}
+	
+.dd-button {
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 12px;
+	color: black;
+	border: 1px solid black;
+}
+	
+.uxui {
+	height: 250px;
+    width: 420px;
+    border: solid black 1px;
+    background-color: #9e9e9e;
+    margin: 0px 0px 42px 0px;
+    padding: 20px 17px 17px 20px;
+}
+
+.uxui p {
+	padding-bottom: 20px;
+}
+	
+.uxui-button {
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 12px;
+	color: black;
+	border: 1px solid black;
+}
+	
+	
+.dm {
+	height: 250px;
+    width: 420px;
+    border: solid black 1px;
+    background-color: #9e9e9e;
+    margin: 0px 0px 42px 0px;
+    padding: 20px 17px 17px 20px;
+}
+
+.dm p {
+	padding-bottom: 20px;
+}
+	
+.dm-button {
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 12px;
+	color: black;
+	border: 1px solid black;
+}
 		
-		
-		
-		
+.webdev {
+	height: 250px;
+    width: 420px;
+    border: solid black 1px;
+    background-color: #9e9e9e;
+    margin: 0px 0px 42px 0px;
+    padding: 20px 17px 17px 20px;
+}
+
+.webdev p {
+	padding-bottom: 20px;
+}
 	
-	}
+.webdev-button {
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 12px;
+	color: black;
+	border: 1px solid black;
+}
 	
-	.digital-design {
-		border: 1px solid black;
-		background: rgba(211, 211, 211, 0.63);
-		
-	}
+.ios {
+	height: 250px;
+    width: 420px;
+    border: solid black 1px;
+    background-color: #9e9e9e;
+    margin: 0px 0px 42px 0px;
+    padding: 20px 17px 17px 20px;
+}
+
+.ios p {
+	padding-bottom: 20px;
+}
 	
-	.dd-button {
-		
-		background-color: white;
-		border: 1px solid black;
-		border-radius: 5px;
-		color: black;
-		padding: 10px 30px;
-		text-align: center;
-		font-size: 12px;
-	}
+.ios-button {
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 12px;
+	color: black;
+	border: 1px solid black;
+}
+
+.android {
+	height: 250px;
+    width: 420px;
+    border: solid black 1px;
+    background-color: #9e9e9e;
+    margin: 0px 0px 42px 0px;
+	padding: 20px 17px 17px 20px;
+}
+
+.android p {
+	padding-bottom: 20px;
+}
 	
-	.uxui {
-		border: 1px solid black;
-		background: rgba(211, 211, 211, 0.63);
-	}
+.android-button {
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 12px;
+	color: black;
+	border: 1px solid black;
+
+}
+
+.facts {
 	
-	 .uxui-button {
-		background-color: white;
-		border: 1px solid black;
-		border-radius: 5px;
-		color: black;
-		padding: 10px 30px;
-		text-align: center;
-		font-size: 12px;
-	}
-	
-	
-	.dm {
-		border: 1px solid black;
-		background: rgba(211, 211, 211, 0.63);
-	}
-	
-	 .dm-button {
-		background-color: white;
-		border: 1px solid black;
-		border-radius: 5px;
-		color: black;
-		padding: 10px 30px;
-		text-align: center;
-		font-size: 12px;
-	}
-	
-	
-	.webdev {
-		border: 1px solid black;
-		background: rgba(211, 211, 211, 0.63);
-	}
-	
-	 .webdev-button {
-		background-color: white;
-		border: 1px solid black;
-		border-radius: 5px;
-		color: black;
-		padding: 10px 30px;
-		text-align: center;
-		font-size: 12px;
-	}
-	
-	.ios {
-		border: 1px solid black;
-		background: rgba(211, 211, 211, 0.63);
-	}
-	
-	 .ios-button {
-		background-color: white;
-		border: 1px solid black;
-		border-radius: 5px;
-		color: black;
-		padding: 10px 30px;
-		text-align: center;
-		font-size: 12px;
-	}
-	
-	
-	.android {
-		border: 1px solid black;
-		background: rgba(211, 211, 211, 0.63);
-	}
-	
-	 .android-button {
-		background-color: white;
-		border: 1px solid black;
-		border-radius: 5px;
-		color: black;
-		padding: 10px 30px;
-		text-align: center;
-		font-size: 12px;
-	}
+	display: flex;
+	align-content: space-between;
+}
+
+.facts-left {
+	height: 250px;
+    width: 420px;
+    margin: 0px 0px 42px 0px;
+    padding: 50px 17px 17px 0px;
+}
+
+.facts-left p {
+	padding-bottom: 30px;
+}
+
+.facts-list {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.facts-list li {
+	padding: 0px 0px 10px 0px;
+}
+
+.svc-img {
+	padding-top: 50px;
+}
+
+footer {
+	padding-top: 75px;
+}
