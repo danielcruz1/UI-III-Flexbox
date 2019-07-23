@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	max-width: 1000px;
+	margin: auto;
+}
+
+/* NAV SECTION!!! */
+
+.navigation {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-links {
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	width: 80%;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: gray;
+	padding: 4.5%;
+	font-size: 16px;
+	border: 1px solid red;
+	height: 20px;
+	
+}
+
+.logo {
+	padding: 1%;
+}
+
+.services-header-img {
+	width: 100%;
+	
+}
+
+.services {
+padding-top: 3%;
+padding-bottom: 3%;
+}
+
+.services h2 {
+	font-size: 20px;
+}
+
+.six-box-nav{
+	/*background: yellow*/
+	display: flex;
+	
+	
+	
+	
+
+}
+
+.digital-design {
+	border: 1px solid black;
+	background: rgba(211, 211, 211, 0.63);
+	
+}
+
+.dd-button {
+	
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: black;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.uxui {
+	border: 1px solid black;
+	background: rgba(211, 211, 211, 0.63);
+}
+
+ .uxui-button {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: black;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+.dm {
+	border: 1px solid black;
+	background: rgba(211, 211, 211, 0.63);
+}
+
+ .dm-button {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: black;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+.webdev {
+	border: 1px solid black;
+	background: rgba(211, 211, 211, 0.63);
+}
+
+ .webdev-button {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: black;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+.ios {
+	border: 1px solid black;
+	background: rgba(211, 211, 211, 0.63);
+}
+
+ .ios-button {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: black;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+.android {
+	border: 1px solid black;
+	background: rgba(211, 211, 211, 0.63);
+}
+
+ .android-button {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: black;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 12px;
+}
